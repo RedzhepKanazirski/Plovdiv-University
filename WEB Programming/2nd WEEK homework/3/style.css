@@ -1,0 +1,31 @@
+
+table,th,td{
+	border: 1px solid black;
+	padding: 10px;
+	border-spacing : 10px;
+    background-color: slateblue;
+    padding-right: 2px;
+    padding-left: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+table
+{
+    background-color: white;
+
+}
+
+
+img{
+	width: 80%;
+	height: 80%;
+	padding-right: 10px;
+}
+
+.td1{
+	padding-right: 0px;
+    padding-left: 45px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}

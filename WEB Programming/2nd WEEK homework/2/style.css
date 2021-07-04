@@ -1,0 +1,22 @@
+
+table,th,td{
+	border: 1px solid black;
+	padding: 16px;
+	border-spacing : 10px;
+    background-color: orange;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left: 10px; 
+    padding-right: 10px;
+}
+
+
+.tdname{
+	background-color: #006600;
+}
+
+table
+{
+  background-color: white;
+}
+
