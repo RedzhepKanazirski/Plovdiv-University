@@ -1,0 +1,175 @@
+body{
+  font-family: 'PT Sans', sans-serif;
+  background-color:black;
+}
+
+#start{
+  display:inline-block;
+  list-style-type: none;
+  overflow: hidden;
+  color:white;
+}
+
+.a1{
+  color: white;
+  text-decoration: none;
+}
+
+.a1:hover{
+  background-color:#ff8200;
+  color: black;
+}
+
+li{
+  display: block;
+  float: left;
+  margin:0px 40px;
+}
+
+.sec1{
+   background-image: linear-gradient(to bottom ,#ff8200,#ff1f00);
+   color:#fff;
+   font-size: 27px;
+   text-align: center;
+   margin-top: -8px;
+   margin-left: -8px;
+   margin-right: -8px;
+}
+
+.div1{
+	display: block;
+	background-color:  #ffbd00;
+	float: left;
+	width: 55%;
+	margin:30px;
+	padding: 20px;
+	text-align: justify;
+	font-size: 28px;
+}
+
+.div2{
+	display: block;
+	background-color: #ffbd00;
+	float: left;
+	width: 55%;
+	margin:30px;
+	padding: 20px;
+	text-align: justify;
+	font-size: 28px;
+}
+
+.div3{
+	display: block;
+	background-color:#ffbd00;
+	float: right;
+	width: 35%;
+	margin:30px;
+	text-align: justify;
+	font-size: 28px;
+}
+
+.h1pika{
+	margin-left: 30px;
+}
+
+.div4{
+	display: block;
+	background-color:#ffbd00;
+	float: right;
+	width: 35%;
+	margin:30px;
+	text-align: justify;
+	font-size: 28px;
+}
+
+p{
+	padding-left: 50px;
+	padding-right: 50px;
+	font-size: 22px;
+}
+
+p.pikachu{
+	font-size: 20px;
+}
+
+img{
+	height: 430px;
+	width: 280px;
+	float: left;
+	margin-right: 30px;
+}
+
+iframe{
+	margin-left: 45px;
+	width:560px;
+	height:316px;
+}
+
+.map{
+	width: 480px;
+	height: 453px;
+	margin-bottom: 30px;
+}
+
+.vertical-menu{
+  width: 400px;
+  margin-left: 60px;
+  margin-bottom: 35px;
+  
+}
+
+.vertical-menu .a2{
+  border:2px solid black;
+  background-image: linear-gradient(to right ,#ffff00, #ff5c00);
+  color: black;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.vertical-menu .a2:hover{
+  background-color: red;
+}
+
+footer.bottom{
+	position: relative;
+	width: 100%;
+	text-align: center;
+	left: 0;
+	display: inline-block;
+	bottom: 0;
+	background-image: linear-gradient(to bottom ,#ff8200,#ff1f00);
+	margin-bottom: 0%;
+	font-weight:bold;
+	color: white;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 15px;
+  width: 12px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa-facebook{
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}

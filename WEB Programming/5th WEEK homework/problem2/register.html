@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	  <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+    <title>Register</title>
+	  <link rel="stylesheet" type="text/css" href="style-register.css">
+</head>
+<body>
+	<main>
+	  <section class="sec1">
+	      <ul id="start">
+            <li><a class="a1" href="../problem1/index.html">Home</a></li>
+            <li><a class="a1" href="#news">News</a></li>
+            <li><a class="a1" href="#register">Register</a></li>
+       </ul>
+</section>
+<section class="sec2">
+	<header class="header111"><h1>Register</h1><hr></header>
+	 <form method="post">
+		 First name:<br>
+     <input class="input1" type="text" name="firstname" placeholder="Your first name"><br>
+     Last name:<br>
+     <input class="input1" type="text" name="lastname" placeholder="Last name"><br>
+     Input your email adress:<br>
+     <input class="input1" type="text" name="email" placeholder="@gmail.com"><br>
+     Birthday:<br>
+     <input class="input1" type="text" name="birthday" placeholder="dd/mm/year"><br>
+     Gender:<br>
+     <input class="input2" type="radio" name="gender" value="male" checked> Male<br>
+     <input class="input2" type="radio" name="gender" value="female"> Female<br>
+     <br>
+     Choose Interests<br>
+     <select class="input1" name="products" multiple="multiple">
+           <option value="202">JavaScript</option>
+           <option value="201">HTML/CSS</option>
+           <option value="203" selected="selected">Web Development</option>
+           <option value="200">Web Design</option>
+     </select><br>
+    Country:<br>
+    <input class="input1" list="countries" name="country" >
+      <datalist id="countries" >
+       	<option value="Austria">
+        <option value="Bulgaria">   	
+        <option value="Germany">
+        <option value="Italy">
+        <option value="Romania">
+        <option value="Spain">
+    </datalist><br>
+    Password:<br>
+    <input class="input1" type="text" name="Password" placeholder="Enter Password"><br>
+    Repeat Password:<br>
+    <input class="input1" type="text" name="Repeat Password" placeholder="Repeat Password"><br>
+    <p><input class="input2" type="checkbox" name="remember me" value="yes" checked="">Remember me</p>
+    <p><input class="input2" type="checkbox" name="agree" value="yes">By creating an account you agree<br> with our<a href="#">Terms&Pravicy</a></p><br>
+    <button class="button button1">Sign up</button>
+    <button class="button button2">Cancel</button>
+</form>
+</section>
+</main>
+ <footer>
+	  <a href="#" class="fa fa-facebook"></a>
+	  <a href="#" class="fa fa-twitter"></a>
+    <a href="#" class="fa fa-google"></a>
+	<div><p>&copy;All Rights Reserved!</p></div>
+ </footer>
+</body>
+</html>

@@ -1,0 +1,22 @@
+div.my-list{
+background-color:#ff8c1a;
+padding: 8px 24px;
+width: 500px;
+font-size: 30px;
+border: 1px solid #ffa64d;
+box-shadow: 0 0 10px 2px #333333;
+margin-left: 7%;
+margin-top: 7%;
+}
+
+h1.h1{
+	line-height: 0.6px;
+}
+
+p.p1{
+	text-align: center;	
+}
+
+ol.ol1{
+	margin: 12px;
+}
