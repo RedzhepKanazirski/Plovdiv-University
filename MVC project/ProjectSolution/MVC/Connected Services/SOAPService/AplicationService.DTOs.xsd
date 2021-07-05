@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/AplicationService.DTOs" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/AplicationService.DTOs" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="ArrayOfAbilityDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="AbilityDTO" nillable="true" type="tns:AbilityDTO" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfAbilityDTO" nillable="true" type="tns:ArrayOfAbilityDTO" />
+  <xs:complexType name="AbilityDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="Title" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="AbilityDTO" nillable="true" type="tns:AbilityDTO" />
+  <xs:complexType name="ArrayOfWeaponDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="WeaponDTO" nillable="true" type="tns:WeaponDTO" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfWeaponDTO" nillable="true" type="tns:ArrayOfWeaponDTO" />
+  <xs:complexType name="WeaponDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Range" type="xs:int" />
+      <xs:element minOccurs="0" name="Rarity" type="xs:int" />
+      <xs:element minOccurs="0" name="Type" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="WeaponDTO" nillable="true" type="tns:WeaponDTO" />
+  <xs:complexType name="ArrayOfClanDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ClanDTO" nillable="true" type="tns:ClanDTO" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfClanDTO" nillable="true" type="tns:ArrayOfClanDTO" />
+  <xs:complexType name="ClanDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Dating" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Specificity" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Symbol" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ClanDTO" nillable="true" type="tns:ClanDTO" />
+  <xs:complexType name="ArrayOfChampionDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ChampionDTO" nillable="true" type="tns:ChampionDTO" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfChampionDTO" nillable="true" type="tns:ArrayOfChampionDTO" />
+  <xs:complexType name="ChampionDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Ability" nillable="true" type="tns:AbilityDTO" />
+      <xs:element minOccurs="0" name="AbilityID" type="xs:int" />
+      <xs:element minOccurs="0" name="Clan" nillable="true" type="tns:ClanDTO" />
+      <xs:element minOccurs="0" name="ClanID" type="xs:int" />
+      <xs:element minOccurs="0" name="DOB" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Gender" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Nickname" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Weapon" nillable="true" type="tns:WeaponDTO" />
+      <xs:element minOccurs="0" name="WeaponID" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ChampionDTO" nillable="true" type="tns:ChampionDTO" />
+</xs:schema>

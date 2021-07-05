@@ -1,0 +1,27 @@
+C:\Users\Kanazirski\Desktop\project C#\ProjectSolution\DataDB\bin\Debug\DataDB.dll.config
+C:\Users\Kanazirski\Desktop\project C#\ProjectSolution\DataDB\bin\Debug\DataDB.dll
+C:\Users\Kanazirski\Desktop\project C#\ProjectSolution\DataDB\bin\Debug\DataDB.pdb
+C:\Users\Kanazirski\Desktop\project C#\ProjectSolution\DataDB\bin\Debug\EntityFramework.dll
+C:\Users\Kanazirski\Desktop\project C#\ProjectSolution\DataDB\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Kanazirski\Desktop\project C#\ProjectSolution\DataDB\bin\Debug\EntityFramework.xml
+C:\Users\Kanazirski\Desktop\project C#\ProjectSolution\DataDB\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Kanazirski\Desktop\project C#\ProjectSolution\DataDB\obj\Debug\DataDB.Migrations.InitialMigration.resources
+C:\Users\Kanazirski\Desktop\project C#\ProjectSolution\DataDB\obj\Debug\DataDB.csproj.GenerateResource.cache
+C:\Users\Kanazirski\Desktop\project C#\ProjectSolution\DataDB\obj\Debug\DataDB.csproj.CoreCompileInputs.cache
+C:\Users\Kanazirski\Desktop\project C#\ProjectSolution\DataDB\obj\Debug\DataDB.csproj.CopyComplete
+C:\Users\Kanazirski\Desktop\project C#\ProjectSolution\DataDB\obj\Debug\DataDB.dll
+C:\Users\Kanazirski\Desktop\project C#\ProjectSolution\DataDB\obj\Debug\DataDB.pdb
+C:\Users\Kanazirski\Desktop\ProjectSolution\DataDB\bin\Debug\DataDB.dll.config
+C:\Users\Kanazirski\Desktop\ProjectSolution\DataDB\bin\Debug\DataDB.dll
+C:\Users\Kanazirski\Desktop\ProjectSolution\DataDB\bin\Debug\DataDB.pdb
+C:\Users\Kanazirski\Desktop\ProjectSolution\DataDB\bin\Debug\EntityFramework.dll
+C:\Users\Kanazirski\Desktop\ProjectSolution\DataDB\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Kanazirski\Desktop\ProjectSolution\DataDB\bin\Debug\EntityFramework.xml
+C:\Users\Kanazirski\Desktop\ProjectSolution\DataDB\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Kanazirski\Desktop\ProjectSolution\DataDB\obj\Debug\DataDB.csprojAssemblyReference.cache
+C:\Users\Kanazirski\Desktop\ProjectSolution\DataDB\obj\Debug\DataDB.csproj.CoreCompileInputs.cache
+C:\Users\Kanazirski\Desktop\ProjectSolution\DataDB\obj\Debug\DataDB.csproj.CopyComplete
+C:\Users\Kanazirski\Desktop\ProjectSolution\DataDB\obj\Debug\DataDB.dll
+C:\Users\Kanazirski\Desktop\ProjectSolution\DataDB\obj\Debug\DataDB.pdb
+C:\Users\Kanazirski\Desktop\ProjectSolution\DataDB\obj\Debug\DataDB.Migrations.InitialMigrations.resources
+C:\Users\Kanazirski\Desktop\ProjectSolution\DataDB\obj\Debug\DataDB.csproj.GenerateResource.cache

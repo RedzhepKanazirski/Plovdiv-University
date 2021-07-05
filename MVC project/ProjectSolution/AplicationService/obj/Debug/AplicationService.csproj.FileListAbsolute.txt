@@ -1,0 +1,36 @@
+C:\Users\Kanazirski\Desktop\project C#\ProjectSolution\AplicationService\obj\Debug\AplicationService.csproj.CoreCompileInputs.cache
+C:\Users\Kanazirski\Desktop\project C#\ProjectSolution\AplicationService\bin\Debug\AplicationService.dll.config
+C:\Users\Kanazirski\Desktop\project C#\ProjectSolution\AplicationService\bin\Debug\AplicationService.dll
+C:\Users\Kanazirski\Desktop\project C#\ProjectSolution\AplicationService\bin\Debug\AplicationService.pdb
+C:\Users\Kanazirski\Desktop\project C#\ProjectSolution\AplicationService\bin\Debug\DataDB.dll
+C:\Users\Kanazirski\Desktop\project C#\ProjectSolution\AplicationService\bin\Debug\EntityFramework.dll
+C:\Users\Kanazirski\Desktop\project C#\ProjectSolution\AplicationService\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Kanazirski\Desktop\project C#\ProjectSolution\AplicationService\bin\Debug\Repository.dll
+C:\Users\Kanazirski\Desktop\project C#\ProjectSolution\AplicationService\bin\Debug\DataDB.pdb
+C:\Users\Kanazirski\Desktop\project C#\ProjectSolution\AplicationService\bin\Debug\DataDB.dll.config
+C:\Users\Kanazirski\Desktop\project C#\ProjectSolution\AplicationService\bin\Debug\Repository.pdb
+C:\Users\Kanazirski\Desktop\project C#\ProjectSolution\AplicationService\bin\Debug\Repository.dll.config
+C:\Users\Kanazirski\Desktop\project C#\ProjectSolution\AplicationService\bin\Debug\EntityFramework.xml
+C:\Users\Kanazirski\Desktop\project C#\ProjectSolution\AplicationService\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Kanazirski\Desktop\project C#\ProjectSolution\AplicationService\obj\Debug\AplicationService.csprojAssemblyReference.cache
+C:\Users\Kanazirski\Desktop\project C#\ProjectSolution\AplicationService\obj\Debug\AplicationService.csproj.CopyComplete
+C:\Users\Kanazirski\Desktop\project C#\ProjectSolution\AplicationService\obj\Debug\AplicationService.dll
+C:\Users\Kanazirski\Desktop\project C#\ProjectSolution\AplicationService\obj\Debug\AplicationService.pdb
+C:\Users\Kanazirski\Desktop\ProjectSolution\AplicationService\bin\Debug\AplicationService.dll.config
+C:\Users\Kanazirski\Desktop\ProjectSolution\AplicationService\bin\Debug\AplicationService.dll
+C:\Users\Kanazirski\Desktop\ProjectSolution\AplicationService\bin\Debug\AplicationService.pdb
+C:\Users\Kanazirski\Desktop\ProjectSolution\AplicationService\bin\Debug\DataDB.dll
+C:\Users\Kanazirski\Desktop\ProjectSolution\AplicationService\bin\Debug\EntityFramework.dll
+C:\Users\Kanazirski\Desktop\ProjectSolution\AplicationService\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Kanazirski\Desktop\ProjectSolution\AplicationService\bin\Debug\Repository.dll
+C:\Users\Kanazirski\Desktop\ProjectSolution\AplicationService\bin\Debug\DataDB.pdb
+C:\Users\Kanazirski\Desktop\ProjectSolution\AplicationService\bin\Debug\DataDB.dll.config
+C:\Users\Kanazirski\Desktop\ProjectSolution\AplicationService\bin\Debug\Repository.pdb
+C:\Users\Kanazirski\Desktop\ProjectSolution\AplicationService\bin\Debug\Repository.dll.config
+C:\Users\Kanazirski\Desktop\ProjectSolution\AplicationService\bin\Debug\EntityFramework.xml
+C:\Users\Kanazirski\Desktop\ProjectSolution\AplicationService\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Kanazirski\Desktop\ProjectSolution\AplicationService\obj\Debug\AplicationService.csprojAssemblyReference.cache
+C:\Users\Kanazirski\Desktop\ProjectSolution\AplicationService\obj\Debug\AplicationService.csproj.CoreCompileInputs.cache
+C:\Users\Kanazirski\Desktop\ProjectSolution\AplicationService\obj\Debug\AplicationService.csproj.CopyComplete
+C:\Users\Kanazirski\Desktop\ProjectSolution\AplicationService\obj\Debug\AplicationService.dll
+C:\Users\Kanazirski\Desktop\ProjectSolution\AplicationService\obj\Debug\AplicationService.pdb

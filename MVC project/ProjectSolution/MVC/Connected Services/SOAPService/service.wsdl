@@ -1,0 +1,439 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Service1" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import namespace="http://tempuri.org/" />
+      <xsd:import namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import namespace="http://schemas.datacontract.org/2004/07/WcfService" />
+      <xsd:import namespace="http://schemas.datacontract.org/2004/07/AplicationService.DTOs" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IService1_GetData_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetData" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetData_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetDataUsingDataContract_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDataUsingDataContract" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetDataUsingDataContract_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDataUsingDataContractResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetAbilities_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAbilities" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetAbilities_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAbilitiesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetAbilitiesSearch_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAbilitiesSearch" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetAbilitiesSearch_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAbilitiesSearchResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_PostAbility_InputMessage">
+    <wsdl:part name="parameters" element="tns:PostAbility" />
+  </wsdl:message>
+  <wsdl:message name="IService1_PostAbility_OutputMessage">
+    <wsdl:part name="parameters" element="tns:PostAbilityResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetAbilityByID_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAbilityByID" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetAbilityByID_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAbilityByIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DeletAbility_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeletAbility" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DeletAbility_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeletAbilityResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UpdateUser_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateUser" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UpdateUser_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetWeapons_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetWeapons" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetWeapons_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetWeaponsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_PostWeapon_InputMessage">
+    <wsdl:part name="parameters" element="tns:PostWeapon" />
+  </wsdl:message>
+  <wsdl:message name="IService1_PostWeapon_OutputMessage">
+    <wsdl:part name="parameters" element="tns:PostWeaponResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetWeaponByID_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetWeaponByID" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetWeaponByID_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetWeaponByIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DeletWeapon_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeletWeapon" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DeletWeapon_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeletWeaponResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetClans_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetClans" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetClans_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetClansResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_PostClan_InputMessage">
+    <wsdl:part name="parameters" element="tns:PostClan" />
+  </wsdl:message>
+  <wsdl:message name="IService1_PostClan_OutputMessage">
+    <wsdl:part name="parameters" element="tns:PostClanResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetClanByID_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetClanByID" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetClanByID_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetClanByIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DeleteClan_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteClan" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DeleteClan_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteClanResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UpdateClan_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateClan" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UpdateClan_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateClanResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetChampions_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetChampions" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetChampions_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetChampionsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_PostChampion_InputMessage">
+    <wsdl:part name="parameters" element="tns:PostChampion" />
+  </wsdl:message>
+  <wsdl:message name="IService1_PostChampion_OutputMessage">
+    <wsdl:part name="parameters" element="tns:PostChampionResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetChampionByID_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetChampionByID" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetChampionByID_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetChampionByIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DeleteChampion_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteChampion" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DeleteChampion_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteChampionResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UpdateChampion_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateChampion" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UpdateChampion_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateChampionResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IService1">
+    <wsdl:operation name="GetData">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetData" message="tns:IService1_GetData_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetDataResponse" message="tns:IService1_GetData_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDataUsingDataContract">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetDataUsingDataContract" message="tns:IService1_GetDataUsingDataContract_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetDataUsingDataContractResponse" message="tns:IService1_GetDataUsingDataContract_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAbilities">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetAbilities" message="tns:IService1_GetAbilities_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetAbilitiesResponse" message="tns:IService1_GetAbilities_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAbilitiesSearch">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetAbilitiesSearch" message="tns:IService1_GetAbilitiesSearch_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetAbilitiesSearchResponse" message="tns:IService1_GetAbilitiesSearch_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="PostAbility">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/PostAbility" message="tns:IService1_PostAbility_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/PostAbilityResponse" message="tns:IService1_PostAbility_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAbilityByID">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetAbilityByID" message="tns:IService1_GetAbilityByID_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetAbilityByIDResponse" message="tns:IService1_GetAbilityByID_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeletAbility">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/DeletAbility" message="tns:IService1_DeletAbility_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/DeletAbilityResponse" message="tns:IService1_DeletAbility_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateUser">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/UpdateUser" message="tns:IService1_UpdateUser_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/UpdateUserResponse" message="tns:IService1_UpdateUser_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetWeapons">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetWeapons" message="tns:IService1_GetWeapons_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetWeaponsResponse" message="tns:IService1_GetWeapons_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="PostWeapon">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/PostWeapon" message="tns:IService1_PostWeapon_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/PostWeaponResponse" message="tns:IService1_PostWeapon_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetWeaponByID">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetWeaponByID" message="tns:IService1_GetWeaponByID_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetWeaponByIDResponse" message="tns:IService1_GetWeaponByID_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeletWeapon">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/DeletWeapon" message="tns:IService1_DeletWeapon_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/DeletWeaponResponse" message="tns:IService1_DeletWeapon_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetClans">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetClans" message="tns:IService1_GetClans_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetClansResponse" message="tns:IService1_GetClans_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="PostClan">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/PostClan" message="tns:IService1_PostClan_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/PostClanResponse" message="tns:IService1_PostClan_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetClanByID">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetClanByID" message="tns:IService1_GetClanByID_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetClanByIDResponse" message="tns:IService1_GetClanByID_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteClan">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/DeleteClan" message="tns:IService1_DeleteClan_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/DeleteClanResponse" message="tns:IService1_DeleteClan_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateClan">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/UpdateClan" message="tns:IService1_UpdateClan_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/UpdateClanResponse" message="tns:IService1_UpdateClan_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetChampions">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetChampions" message="tns:IService1_GetChampions_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetChampionsResponse" message="tns:IService1_GetChampions_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="PostChampion">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/PostChampion" message="tns:IService1_PostChampion_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/PostChampionResponse" message="tns:IService1_PostChampion_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetChampionByID">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetChampionByID" message="tns:IService1_GetChampionByID_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetChampionByIDResponse" message="tns:IService1_GetChampionByID_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteChampion">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/DeleteChampion" message="tns:IService1_DeleteChampion_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/DeleteChampionResponse" message="tns:IService1_DeleteChampion_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateChampion">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/UpdateChampion" message="tns:IService1_UpdateChampion_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/UpdateChampionResponse" message="tns:IService1_UpdateChampion_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IService1" type="tns:IService1">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetData">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDataUsingDataContract">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetDataUsingDataContract" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAbilities">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetAbilities" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAbilitiesSearch">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetAbilitiesSearch" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PostAbility">
+      <soap:operation soapAction="http://tempuri.org/IService1/PostAbility" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAbilityByID">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetAbilityByID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeletAbility">
+      <soap:operation soapAction="http://tempuri.org/IService1/DeletAbility" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateUser">
+      <soap:operation soapAction="http://tempuri.org/IService1/UpdateUser" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetWeapons">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetWeapons" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PostWeapon">
+      <soap:operation soapAction="http://tempuri.org/IService1/PostWeapon" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetWeaponByID">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetWeaponByID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeletWeapon">
+      <soap:operation soapAction="http://tempuri.org/IService1/DeletWeapon" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetClans">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetClans" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PostClan">
+      <soap:operation soapAction="http://tempuri.org/IService1/PostClan" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetClanByID">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetClanByID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteClan">
+      <soap:operation soapAction="http://tempuri.org/IService1/DeleteClan" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateClan">
+      <soap:operation soapAction="http://tempuri.org/IService1/UpdateClan" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetChampions">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetChampions" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PostChampion">
+      <soap:operation soapAction="http://tempuri.org/IService1/PostChampion" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetChampionByID">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetChampionByID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteChampion">
+      <soap:operation soapAction="http://tempuri.org/IService1/DeleteChampion" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateChampion">
+      <soap:operation soapAction="http://tempuri.org/IService1/UpdateChampion" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Service1">
+    <wsdl:port name="BasicHttpBinding_IService1" binding="tns:BasicHttpBinding_IService1">
+      <soap:address location="http://localhost:8733/Design_Time_Addresses/WcfService/Service1/" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

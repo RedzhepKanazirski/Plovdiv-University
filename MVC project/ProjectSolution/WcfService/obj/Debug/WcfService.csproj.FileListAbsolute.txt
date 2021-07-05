@@ -1,0 +1,42 @@
+C:\Users\Kanazirski\Desktop\project C#\ProjectSolution\WcfService\obj\Debug\WcfService.csproj.CoreCompileInputs.cache
+C:\Users\Kanazirski\Desktop\project C#\ProjectSolution\WcfService\bin\Debug\WcfService.dll.config
+C:\Users\Kanazirski\Desktop\project C#\ProjectSolution\WcfService\bin\Debug\WcfService.dll
+C:\Users\Kanazirski\Desktop\project C#\ProjectSolution\WcfService\bin\Debug\WcfService.pdb
+C:\Users\Kanazirski\Desktop\project C#\ProjectSolution\WcfService\bin\Debug\AplicationService.dll
+C:\Users\Kanazirski\Desktop\project C#\ProjectSolution\WcfService\bin\Debug\EntityFramework.dll
+C:\Users\Kanazirski\Desktop\project C#\ProjectSolution\WcfService\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Kanazirski\Desktop\project C#\ProjectSolution\WcfService\bin\Debug\DataDB.dll
+C:\Users\Kanazirski\Desktop\project C#\ProjectSolution\WcfService\bin\Debug\Repository.dll
+C:\Users\Kanazirski\Desktop\project C#\ProjectSolution\WcfService\bin\Debug\AplicationService.pdb
+C:\Users\Kanazirski\Desktop\project C#\ProjectSolution\WcfService\bin\Debug\AplicationService.dll.config
+C:\Users\Kanazirski\Desktop\project C#\ProjectSolution\WcfService\bin\Debug\EntityFramework.xml
+C:\Users\Kanazirski\Desktop\project C#\ProjectSolution\WcfService\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Kanazirski\Desktop\project C#\ProjectSolution\WcfService\bin\Debug\DataDB.pdb
+C:\Users\Kanazirski\Desktop\project C#\ProjectSolution\WcfService\bin\Debug\DataDB.dll.config
+C:\Users\Kanazirski\Desktop\project C#\ProjectSolution\WcfService\bin\Debug\Repository.pdb
+C:\Users\Kanazirski\Desktop\project C#\ProjectSolution\WcfService\bin\Debug\Repository.dll.config
+C:\Users\Kanazirski\Desktop\project C#\ProjectSolution\WcfService\obj\Debug\WcfService.csprojAssemblyReference.cache
+C:\Users\Kanazirski\Desktop\project C#\ProjectSolution\WcfService\obj\Debug\WcfService.csproj.CopyComplete
+C:\Users\Kanazirski\Desktop\project C#\ProjectSolution\WcfService\obj\Debug\WcfService.dll
+C:\Users\Kanazirski\Desktop\project C#\ProjectSolution\WcfService\obj\Debug\WcfService.pdb
+C:\Users\Kanazirski\Desktop\ProjectSolution\WcfService\bin\Debug\WcfService.dll.config
+C:\Users\Kanazirski\Desktop\ProjectSolution\WcfService\bin\Debug\WcfService.dll
+C:\Users\Kanazirski\Desktop\ProjectSolution\WcfService\bin\Debug\WcfService.pdb
+C:\Users\Kanazirski\Desktop\ProjectSolution\WcfService\bin\Debug\AplicationService.dll
+C:\Users\Kanazirski\Desktop\ProjectSolution\WcfService\bin\Debug\DataDB.dll
+C:\Users\Kanazirski\Desktop\ProjectSolution\WcfService\bin\Debug\EntityFramework.dll
+C:\Users\Kanazirski\Desktop\ProjectSolution\WcfService\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Kanazirski\Desktop\ProjectSolution\WcfService\bin\Debug\Repository.dll
+C:\Users\Kanazirski\Desktop\ProjectSolution\WcfService\bin\Debug\AplicationService.pdb
+C:\Users\Kanazirski\Desktop\ProjectSolution\WcfService\bin\Debug\AplicationService.dll.config
+C:\Users\Kanazirski\Desktop\ProjectSolution\WcfService\bin\Debug\DataDB.pdb
+C:\Users\Kanazirski\Desktop\ProjectSolution\WcfService\bin\Debug\DataDB.dll.config
+C:\Users\Kanazirski\Desktop\ProjectSolution\WcfService\bin\Debug\EntityFramework.xml
+C:\Users\Kanazirski\Desktop\ProjectSolution\WcfService\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Kanazirski\Desktop\ProjectSolution\WcfService\bin\Debug\Repository.pdb
+C:\Users\Kanazirski\Desktop\ProjectSolution\WcfService\bin\Debug\Repository.dll.config
+C:\Users\Kanazirski\Desktop\ProjectSolution\WcfService\obj\Debug\WcfService.csprojAssemblyReference.cache
+C:\Users\Kanazirski\Desktop\ProjectSolution\WcfService\obj\Debug\WcfService.csproj.CoreCompileInputs.cache
+C:\Users\Kanazirski\Desktop\ProjectSolution\WcfService\obj\Debug\WcfService.csproj.CopyComplete
+C:\Users\Kanazirski\Desktop\ProjectSolution\WcfService\obj\Debug\WcfService.dll
+C:\Users\Kanazirski\Desktop\ProjectSolution\WcfService\obj\Debug\WcfService.pdb
