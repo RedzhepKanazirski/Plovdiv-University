@@ -1,0 +1,126 @@
+﻿@model ShareWithMe.ViewModels.Musics.CreateVM
+@using ShareWithMe.Entities;
+@using Microsoft.AspNetCore.Http;
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link href="~/css/styles.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Emilys+Candy&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Aldrich&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    @*heart*@
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+    <header class="header3">
+        <div class="thirdmenu">
+            <ul class="menu3">
+                <li class="menu3">
+                    <a class="menu3" href="/Home/Index">About us</a>
+                </li>
+                @if (this.Context.Session.GetString("LoggedUserId") != null)
+                {
+                    <li class="menu3">
+                        <a class="menu3" href="/Users/Index">USERS</a>
+                    </li>
+                    <li class="menu3">
+                        <a class="menu3" href="/Books/Index">BOOKS</a>
+                    </li>
+                    <li class="menu3">
+                        <a class="menu3" href="/Musics/Index">Musics</a>
+                    </li>
+                    <li class="menu3">
+                        <a class="menu3" href="/Recipes/Index">Recipes</a>
+                    </li>
+                }
+                <li class="menu3">
+                    @if (this.Context.Session.GetString("LoggedUserId") == null)
+                    {
+                        <a class="menu3" href="/Home/Login">LOGIN</a>
+                    }
+                    else
+                    {
+                        <a class="menu3" href="/Home/Logout">LOGOUT</a>
+                    }
+                </li>
+            </ul>
+        </div>
+        <div class="zaglavie3">
+            <h1>SHARE with ME</h1>
+        </div>
+    </header>
+    <div class="section">
+        @if (this.Context.Session.GetString("LoggedUserId") != null)
+        {
+            <span class="rightgreeting">Hi, @( this.Context.Session.GetString("LoggedUserUsername")). Glad to see you<i class="fa fa-heart"></i></span>
+        }
+        else
+        {
+            <span class="rightgreeting">
+                Hello, @(this.Context.Session.GetString("LoggedUserId") != null
+                                 ? this.Context.Session.GetString("LoggedUserUsername")
+                                 : "Stranger, lets get starting")
+            </span>
+        }
+    </div>
+    @*########################################################################################*@
+    <div class="section">
+        <div class="center3">
+            <h1 class="loginnadpis3">ADD MUSIC</h1>
+            <fieldset class="fieldsetlogin">
+                <form action="/Musics/Create" method="post">
+                    <div class="gridd">
+                        <div class="roww">
+                            <div class="coll-1">Genre:</div>
+                            <div class="coll-2">@Html.TextBoxFor(m => m.Genre)</div>
+                            <div class="coll-2">@Html.ValidationMessageFor(m => m.Genre)</div>
+                        </div>
+                        <div class="roww">
+                            <div class="coll-1">Title:</div>
+                            <div class="coll-2">@Html.TextBoxFor(m => m.Title)</div>
+                            <div class="coll-2">@Html.ValidationMessageFor(m => m.Title)</div>
+                        </div>
+                        <div class="roww">
+                            <div class="coll-1">First Name:</div>
+                            <div class="coll-2">@Html.TextBoxFor(m => m.FirstName)</div>
+                            <div class="coll-2">@Html.ValidationMessageFor(m => m.FirstName)</div>
+                        </div>
+                        <div class="roww">
+                            <div class="coll-1">Last Name:</div>
+                            <div class="coll-2">@Html.TextBoxFor(m => m.LastName)</div>
+                            <div class="coll-2">@Html.ValidationMessageFor(m => m.LastName)</div>
+                        </div>
+                        <div class="roww">
+                            <div class="coll-1">Year:</div>
+                            <div class="coll-2">@Html.TextBoxFor(m => m.Year)</div>
+                            <div class="coll-2">@Html.ValidationMessageFor(m => m.Year)</div>
+                        </div>
+                        <div class="roww">
+                            <div class="coll-3">
+                                <input class="buttcreatemusic" type="submit" value="Create" />
+                                <button class="buttcreatemusic"><a class="buttcreatemusica" href="/Musics/Index">Back</a></button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </fieldset>
+        </div>
+    </div>
+    @*########################################################################################*@
+    <div class="foot3">
+        <footer>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-google"></a>
+            <div><p>SHAREwithME &copy;All Rights Reserved!</p></div>
+        </footer>
+    </div>
+</body>
+</html>
+
+

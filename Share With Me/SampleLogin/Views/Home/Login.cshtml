@@ -1,0 +1,32 @@
+﻿@model ShareWithMe.ViewModels.Home.LoginVM
+@{
+    Layout = "/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Login";
+}
+<div class="center">
+    <h1 class="loginnadpis">LOGIN</h1>
+    <fieldset class="fieldsetlogin">
+        <form action="/Home/Login" method="post">
+            <div class="gridd">
+                <div class="roww">
+                    <div class="coll-1">Username:</div>
+                    <div class="coll-2">@Html.TextBoxFor(m => m.Username)</div>
+                    <div class="coll-2">@Html.ValidationMessageFor(m => m.Username)</div>
+                </div>
+                <div class="roww">
+                    <div class="coll-1">Password:</div>
+                    <div class="coll-2">@Html.PasswordFor(m => m.Password)</div>
+                    <div class="coll-2">@Html.ValidationMessageFor(m => m.Password)</div>
+                </div>
+                <div class="roww">
+                    <div class="coll-3">@Html.ValidationMessage("AuthenticationFailed")</div>
+                </div>
+                <div class="roww">
+                    <div class="coll-3"><input class="butt" type="submit" value="Login" /></div>
+                    <div class="coll-3"><input class="butt2" type="button" value="Register" /></div>
+
+                </div>
+            </div>
+        </form>
+    </fieldset>
+</div>

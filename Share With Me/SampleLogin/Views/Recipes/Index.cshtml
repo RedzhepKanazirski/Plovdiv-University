@@ -1,0 +1,131 @@
+﻿@model ShareWithMe.ViewModels.Recipes.IndexVM
+@using ShareWithMe.Entities;
+@using Microsoft.AspNetCore.Http;
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link href="~/css/styles.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Emilys+Candy&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Aldrich&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    @*heart*@
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+    <header class="header4">
+        <div class="fourthmenu">
+            <ul class="menu4">
+                <li class="menu4">
+                    <a class="menu4" href="/Home/Index">About us</a>
+                </li>
+                @if (this.Context.Session.GetString("LoggedUserId") != null)
+                {
+                    <li class="menu4">
+                        <a class="menu4" href="/Users/Index">USERS</a>
+                    </li>
+                    <li class="menu4">
+                        <a class="menu4" href="/Books/Index">BOOKS</a>
+                    </li>
+                    <li class="menu4">
+                        <a class="menu4" href="/Musics/Index">Musics</a>
+                    </li>
+                    <li class="menu4">
+                        <a class="menu4" href="/Recipes/Index">Recipes</a>
+                    </li>
+                }
+                <li class="menu4">
+                    @if (this.Context.Session.GetString("LoggedUserId") == null)
+                    {
+                        <a class="menu4" href="/Home/Login">LOGIN</a>
+                    }
+                    else
+                    {
+                        <a class="menu4" href="/Home/Logout">LOGOUT</a>
+                    }
+                </li>
+            </ul>
+        </div>
+        <div class="zaglavie4">
+            <h1>SHARE with ME</h1>
+        </div>
+    </header>
+    <div class="section">
+        @if (this.Context.Session.GetString("LoggedUserId") != null)
+        {
+            <span class="rightgreeting">Hi, @( this.Context.Session.GetString("LoggedUserUsername")). Glad to see you<i class="fa fa-heart"></i></span>
+        }
+        else
+        {
+            <span class="rightgreeting">
+                Hello, @(this.Context.Session.GetString("LoggedUserId") != null
+                                 ? this.Context.Session.GetString("LoggedUserUsername")
+                                 : "Stranger, lets get starting")
+            </span>
+        }
+    </div>
+    @*########################################################################################*@
+<div class="section">
+    <button class="newbuttrecipe"> <a class="newabuttrecipe" href="/Recipes/Create">ADD RECIPE</a></button> 
+    <div class="grid">
+        <div class="row">
+        </div>
+        @foreach (Recipe item in Model.Items)
+        {
+            <div class="row4">
+                <div class="col-24">
+                    <div class="padd">
+                        <br />
+                        @item.one<br />
+                        <br />
+                        INGRADIENTS: <br />
+                        <br />
+                        @item.two<br />
+                        @item.three<br />
+                        @item.four<br />
+                        @item.five<br />
+                        @item.six<br />
+                        @item.seven<br />
+                        @item.eight<br />
+                        @item.nine<br />
+                        @item.ten<br />
+                        <button class="edelmusic"><a class="edelamusic" href="/Recipes/Share?id=@item.Id">share</a></button>
+                        <button class="edelmusic"><a class="edelamusic" href="/Recipes/Edit?id=@item.Id">edit</a></button>
+                        <button class="edelmusic"><a class="edelamusic" href="/Recipes/Delete?id=@item.Id">delete</a></button>
+                    </div>
+                </div>
+                <div class="col-2">
+                    @*<img class="recipegif" src="~/content/recipes.png" />*@
+                    <img class="recipegif" src="~/content/recipess.png" />
+                </div>
+                <br />
+            </div>
+        }
+    </div>
+</div>
+    @*########################################################################################*@
+    <div class="foot4">
+        <footer>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-google"></a>
+            <div><p>SHAREwithME &copy;All Rights Reserved!</p></div>
+        </footer>
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+

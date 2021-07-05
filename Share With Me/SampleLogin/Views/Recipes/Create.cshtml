@@ -1,0 +1,151 @@
+﻿@model ShareWithMe.ViewModels.Recipes.CreateVM
+@using ShareWithMe.Entities;
+@using Microsoft.AspNetCore.Http;
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link href="~/css/styles.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Emilys+Candy&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Aldrich&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    @*heart*@
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+    <header class="header4">
+        <div class="fourthmenu">
+            <ul class="menu4">
+                <li class="menu4">
+                    <a class="menu4" href="/Home/Index">About us</a>
+                </li>
+                @if (this.Context.Session.GetString("LoggedUserId") != null)
+                {
+                    <li class="menu4">
+                        <a class="menu4" href="/Users/Index">USERS</a>
+                    </li>
+                    <li class="menu4">
+                        <a class="menu4" href="/Books/Index">BOOKS</a>
+                    </li>
+                    <li class="menu4">
+                        <a class="menu4" href="/Musics/Index">Musics</a>
+                    </li>
+                    <li class="menu4">
+                        <a class="menu4" href="/Recipes/Index">Recipes</a>
+                    </li>
+                }
+                <li class="menu4">
+                    @if (this.Context.Session.GetString("LoggedUserId") == null)
+                    {
+                        <a class="menu4" href="/Home/Login">LOGIN</a>
+                    }
+                    else
+                    {
+                        <a class="menu4" href="/Home/Logout">LOGOUT</a>
+                    }
+                </li>
+            </ul>
+        </div>
+        <div class="zaglavie4">
+            <h1>SHARE with ME</h1>
+        </div>
+    </header>
+    <div class="section">
+        @if (this.Context.Session.GetString("LoggedUserId") != null)
+        {
+            <span class="rightgreeting">Hi, @( this.Context.Session.GetString("LoggedUserUsername")). Glad to see you<i class="fa fa-heart"></i></span>
+        }
+        else
+        {
+            <span class="rightgreeting">
+                Hello, @(this.Context.Session.GetString("LoggedUserId") != null
+                                 ? this.Context.Session.GetString("LoggedUserUsername")
+                                 : "Stranger, lets get starting")
+            </span>
+        }
+    </div>
+    @*########################################################################################*@
+        <div class="section">
+            <div class="center5">
+                <h1 class="loginnadpis5">ADD RECIPE</h1>
+                <fieldset class="fieldsetlogin">
+                    <form action="/Recipes/Create" method="post">
+                        <div class="gridd">
+                            <div class="roww">
+                                <div class="coll-2">Recipe Name:</div>
+                                <div class="coll-2">@Html.TextBoxFor(m => m.one)</div>
+                                <div class="coll-2">@Html.ValidationMessageFor(m => m.one)</div>
+                                <br />
+                            </div>
+                            <div class="roww">
+                                <div class="coll-2">INGRADIENTS:</div>
+                                <div class="coll-1"> </div>
+                                <div class="coll-2">@Html.TextBoxFor(m => m.two)</div>
+                                <div class="coll-2">@Html.ValidationMessageFor(m => m.two)</div>
+                            </div>
+                            <div class="roww">
+                                <div class="coll-1"> </div>
+                                <div class="coll-2">@Html.TextBoxFor(m => m.three)</div>
+                                <div class="coll-2">@Html.ValidationMessageFor(m => m.three)</div>
+                            </div>
+                            <div class="roww">
+                                <div class="coll-1"> </div>
+                                <div class="coll-2">@Html.TextBoxFor(m => m.four)</div>
+                                <div class="coll-2">@Html.ValidationMessageFor(m => m.four)</div>
+                            </div>
+                            <div class="roww">
+                                <div class="coll-1"> </div>
+                                <div class="coll-2">@Html.TextBoxFor(m => m.five)</div>
+                                <div class="coll-2">@Html.ValidationMessageFor(m => m.five)</div>
+                            </div>
+                            <div class="roww">
+                                <div class="coll-1"> </div>
+                                <div class="coll-2">@Html.TextBoxFor(m => m.six)</div>
+                                <div class="coll-2">@Html.ValidationMessageFor(m => m.six)</div>
+                            </div>
+                            <div class="roww">
+                                <div class="coll-1"> </div>
+                                <div class="coll-2">@Html.TextBoxFor(m => m.seven)</div>
+                                <div class="coll-2">@Html.ValidationMessageFor(m => m.seven)</div>
+                            </div>
+                            <div class="roww">
+                                <div class="coll-1"> </div>
+                                <div class="coll-2">@Html.TextBoxFor(m => m.eight)</div>
+                                <div class="coll-2">@Html.ValidationMessageFor(m => m.eight)</div>
+                            </div>
+                            <div class="roww">
+                                <div class="coll-1"> </div>
+                                <div class="coll-2">@Html.TextBoxFor(m => m.nine)</div>
+                                <div class="coll-2">@Html.ValidationMessageFor(m => m.nine)</div>
+                            </div>
+                            <div class="roww">
+                                <div class="coll-1"> </div>
+                                <div class="coll-2">@Html.TextBoxFor(m => m.ten)</div>
+                                <div class="coll-2">@Html.ValidationMessageFor(m => m.ten)</div>
+                            </div>
+                            <div class="roww">
+                                <div class="coll-3">
+                                    <input class="buttcreaterecipe" type="submit" value="Create" />
+                                    <button class="buttcreaterecipe"><a class="buttcreaterecipea" href="/Recipes/Index">Back</a></button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </fieldset>
+            </div>
+        </div>  
+    @*########################################################################################*@
+    <div class="foot4">
+        <footer>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-google"></a>
+            <div><p>SHAREwithME &copy;All Rights Reserved!</p></div>
+        </footer>
+    </div>
+</body>
+</html>
