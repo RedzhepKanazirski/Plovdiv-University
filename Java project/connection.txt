@@ -1,3 +1,0 @@
-jdbc:h2:C:\\Users\Kanazirski\\Desktop\\2nd course\\3ти семестър\\практикум по ООП\\DB;AUTO_SERVER=TRUE
-sa
-sa
