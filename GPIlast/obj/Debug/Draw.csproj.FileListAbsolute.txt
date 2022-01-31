@@ -1,0 +1,38 @@
+C:\Users\user\Desktop\КГ проект\VisualStudio2008-WinForms\bin\Debug\Draw.exe
+C:\Users\user\Desktop\КГ проект\VisualStudio2008-WinForms\bin\Debug\Draw.pdb
+C:\Users\user\Desktop\КГ проект\VisualStudio2008-WinForms\obj\Debug\Draw.csprojAssemblyReference.cache
+C:\Users\user\Desktop\КГ проект\VisualStudio2008-WinForms\obj\Debug\Draw.DoubleBufferedPanel.resources
+C:\Users\user\Desktop\КГ проект\VisualStudio2008-WinForms\obj\Debug\Draw.MainForm.resources
+C:\Users\user\Desktop\КГ проект\VisualStudio2008-WinForms\obj\Debug\Draw.csproj.GenerateResource.cache
+C:\Users\user\Desktop\КГ проект\VisualStudio2008-WinForms\obj\Debug\Draw.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\КГ проект\VisualStudio2008-WinForms\obj\Debug\Draw.exe
+C:\Users\user\Desktop\КГ проект\VisualStudio2008-WinForms\obj\Debug\Draw.pdb
+C:\Users\user\Desktop\1901321083\bin\Debug\Draw.exe
+C:\Users\user\Desktop\1901321083\bin\Debug\Draw.pdb
+C:\Users\user\Desktop\1901321083\obj\Debug\Draw.csprojAssemblyReference.cache
+C:\Users\user\Desktop\1901321083\obj\Debug\Draw.DoubleBufferedPanel.resources
+C:\Users\user\Desktop\1901321083\obj\Debug\Draw.MainForm.resources
+C:\Users\user\Desktop\1901321083\obj\Debug\Draw.csproj.GenerateResource.cache
+C:\Users\user\Desktop\1901321083\obj\Debug\Draw.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\1901321083\obj\Debug\Draw.exe
+C:\Users\user\Desktop\1901321083\obj\Debug\Draw.pdb
+C:\Users\user\Desktop\Нова папка\bin\Debug\Draw.exe
+C:\Users\user\Desktop\Нова папка\bin\Debug\Draw.pdb
+C:\Users\user\Desktop\Нова папка\obj\Debug\Draw.csprojAssemblyReference.cache
+C:\Users\user\Desktop\Нова папка\obj\Debug\Draw.Properties.Resources.resources
+C:\Users\user\Desktop\Нова папка\obj\Debug\Draw.DoubleBufferedPanel.resources
+C:\Users\user\Desktop\Нова папка\obj\Debug\Draw.MainForm.resources
+C:\Users\user\Desktop\Нова папка\obj\Debug\Draw.csproj.GenerateResource.cache
+C:\Users\user\Desktop\Нова папка\obj\Debug\Draw.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Нова папка\obj\Debug\Draw.exe
+C:\Users\user\Desktop\Нова папка\obj\Debug\Draw.pdb
+C:\Users\Kanazirski\Desktop\GPIlast\bin\Debug\Draw.exe
+C:\Users\Kanazirski\Desktop\GPIlast\bin\Debug\Draw.pdb
+C:\Users\Kanazirski\Desktop\GPIlast\obj\Debug\Draw.csprojAssemblyReference.cache
+C:\Users\Kanazirski\Desktop\GPIlast\obj\Debug\Draw.Properties.Resources.resources
+C:\Users\Kanazirski\Desktop\GPIlast\obj\Debug\Draw.DoubleBufferedPanel.resources
+C:\Users\Kanazirski\Desktop\GPIlast\obj\Debug\Draw.MainForm.resources
+C:\Users\Kanazirski\Desktop\GPIlast\obj\Debug\Draw.csproj.GenerateResource.cache
+C:\Users\Kanazirski\Desktop\GPIlast\obj\Debug\Draw.csproj.CoreCompileInputs.cache
+C:\Users\Kanazirski\Desktop\GPIlast\obj\Debug\Draw.exe
+C:\Users\Kanazirski\Desktop\GPIlast\obj\Debug\Draw.pdb
