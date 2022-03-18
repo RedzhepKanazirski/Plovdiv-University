@@ -1,0 +1,342 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 271240000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Отваря екрана за вход в системата.",
+            "match": {
+              "location": "LoginSteps.openLoginScreen()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "Вход в системата с валидни потребителски данни.",
+        "description": "",
+        "id": "вход-в-системата.;вход-в-системата-с-валидни-потребителски-данни.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "Въведе потребителско име: \"Преслав\".",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "въведе валидна потребителска парола.",
+            "match": {
+              "location": "LoginSteps.addPassword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "натисне бутона за вход в системата.",
+            "match": {
+              "location": "LoginSteps.clickLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "Вижда съобщение за успешен вход.",
+            "match": {
+              "location": "LoginSteps.checkMessage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 197800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Отваря екрана за вход в системата.",
+            "match": {
+              "location": "LoginSteps.openLoginScreen()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "Вход в системата без парола.",
+        "description": "",
+        "id": "вход-в-системата.;вход-в-системата-без-парола.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14,
+            "name": "Въведе потребителско име: \"Преслав\".",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "натисне бутона за вход в системата.",
+            "match": {
+              "location": "LoginSteps.clickLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "Вижда съобщение за липсващи данни.",
+            "match": {
+              "location": "LoginSteps.checkForMissingDataMessage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 110700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Отваря екрана за вход в системата.",
+            "match": {
+              "location": "LoginSteps.openLoginScreen()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 18,
+        "name": "Вход в системата без потребителско име.",
+        "description": "",
+        "id": "вход-в-системата.;вход-в-системата-без-потребителско-име.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 54000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "въведе валидна потребителска парола.",
+            "match": {
+              "location": "LoginSteps.addPassword()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 845600,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "натисне бутона за вход в системата.",
+            "match": {
+              "location": "LoginSteps.clickLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 91800,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Вижда съобщение за липсващи данни.",
+            "match": {
+              "location": "LoginSteps.checkForMissingDataMessage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 104200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Отваря екрана за вход в системата.",
+            "match": {
+              "location": "LoginSteps.openLoginScreen()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 23,
+        "name": "Вход в системата без данни.",
+        "description": "",
+        "id": "вход-в-системата.;вход-в-системата-без-данни.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 27200,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "натисне бутона за вход в системата.",
+            "match": {
+              "location": "LoginSteps.clickLoginButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 70600,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Вижда съобщение за липсващи данни.",
+            "match": {
+              "location": "LoginSteps.checkForMissingDataMessage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 122400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Отваря екрана за вход в системата.",
+            "match": {
+              "location": "LoginSteps.openLoginScreen()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 27,
+        "name": "Вход в системата с невалидни потребителски данни.",
+        "description": "",
+        "id": "вход-в-системата.;вход-в-системата-с-невалидни-потребителски-данни.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 28,
+            "name": "Въведе потребителско име: \"Wrong username\".",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 29,
+            "name": "въведе валидна потребителска парола.",
+            "match": {
+              "location": "LoginSteps.addPassword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 30,
+            "name": "натисне бутона за вход в системата.",
+            "match": {
+              "location": "LoginSteps.clickLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 31,
+            "name": "Вижда съобщение за грешни данни.",
+            "match": {
+              "location": "LoginSteps.checkForWrongDataMessage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Вход в системата.",
+    "description": "",
+    "id": "вход-в-системата.",
+    "keyword": "Feature",
+    "uri": "uni/fmi/login/login.feature"
+  }
+]
